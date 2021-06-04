@@ -6,7 +6,7 @@ const secondsDiv = document.querySelector('#seconds')
 
 const countDown = () => {
     // Set Desired Date
-    const goalDate = '1 Jan 2022'
+    const goalDate = '16 Jan 2022'
 
     const desiredGoalDate = new Date(goalDate)
     const currentDate = new Date()
