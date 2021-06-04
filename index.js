@@ -4,11 +4,8 @@ const hoursDiv = document.querySelector('#hours')
 const daysDiv  = document.querySelector('#days')
 const inputDate = document.querySelector('.goal-date')
 
-
-
-
-
 const countDown = () => {
+    // Set Desired Date
     const goalDate = '1 Jan 2022'
 
     const desiredGoalDate = new Date(goalDate)
