@@ -1,8 +1,8 @@
-const secondsDiv = document.querySelector('#seconds')
-const minutesDiv = document.querySelector('#min')
-const hoursDiv = document.querySelector('#hours')
 const daysDiv  = document.querySelector('#days')
-const inputDate = document.querySelector('.goal-date')
+const hoursDiv = document.querySelector('#hours')
+const minutesDiv = document.querySelector('#min')
+const secondsDiv = document.querySelector('#seconds')
+
 
 const countDown = () => {
     // Set Desired Date
@@ -22,7 +22,6 @@ const countDown = () => {
     hoursDiv.textContent = hours
     secondsDiv.textContent = seconds
     minutesDiv.textContent = minutes
-    console.log(goalDate);
 }
 
 // Initial Call
